@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <div>
+          <img
+            id="image"
+            src="https://ssit.co.in/images/logo.png"
+            width="65"
+            alt
+          />
+        </div>
+        <pre>
+            Shree Swaminarayan 
+          Institute of Technology</pre
+        >
+      </div>
+      <!-- <h1>Register for College Information Chatbot</h1> -->
+
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="register.html">Register</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="index.html">chatbot</a></li>
+          <li><a href="feedback.html">feedback</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="img">
+        <section id="register">
+          <h2>Create Your Account</h2>
+          <div class="register">
+            <form
+              id="registerForm"
+              action="register-success.html"
+              method="post"
+            >
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" required />
+
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+
+              <label for="password">Password</label>
+              <input type="password" id="password" name="password" required />
+
+              <label for="confirmPassword">Confirm Password</label>
+              <input
+                type="password"
+                id="confirmPassword"
+                name="confirmPassword"
+                required
+              />
+
+              <button class="btn1" type="submit">Register</button>
+            </form>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <p>
+        Shree Swaminarayan Institute of Technology (SSIT), Near Agora Mall &
+        Indira Bridge, sardar patel ring road, bhat circle ahmedabad
+        Airport-Gandhinagar Highway, Bhat, Gandhinagar - 382428
+      </p>
+      <p>© 2024 College Info Chatbot. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
