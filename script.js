@@ -1,4 +1,4 @@
-const OPENAI_API_KEY = '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'; // Replace with your OpenAI API key
+const OPENAI_API_KEY = 'your api key'; // Replace with your OpenAI API key
 
 const ssitContext = `Shree Swaminarayan Institute of Technology (SSIT), Gandhinagar, Gujarat, established in 2001, is affiliated to Gujarat Technological University (GTU) and approved by AICTE. It offers B.E. programs in Computer Engineering, Information Technology, Mechanical, Civil, and CSE with AI, and a PG program in MCA.
 
