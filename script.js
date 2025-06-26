@@ -95,9 +95,9 @@ function login() {
   if (storedData.password === password) {
     sessionStorage.setItem("loggedInUser", username);
     alert(`Welcome, ${username}! You have successfully logged in.`);
-
+   window.location.replace("index.html");
     // Redirect to main page
-    window.location.href = "index.html";
+    // window.location.href = "index.html";
     // document.getElementById("message").innerText = `Welcome, ${username}! You are logged in.`;
   } else {
     document.getElementById("message").innerText = "Incorrect password!";
